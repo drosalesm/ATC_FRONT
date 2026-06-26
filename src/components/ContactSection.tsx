@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Mail, Phone, MapPin, Loader2 } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
-import { fetchCompany, type Company } from "@/lib/companyApi";
+import { fetchCompany, type Company } from "@/lib/Companyapi";
 import ContactModal from "@/components/ContactModal";
 
 const ContactSection = () => {
